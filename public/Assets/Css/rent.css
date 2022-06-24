@@ -1,0 +1,19 @@
+.page-rent {
+    width: 100%;
+    padding: 30px 5%;
+}
+
+button#btn-search {
+    margin-top: 25px;
+}
+
+button#btn-rent {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.fl-rent {
+    display: flex;
+    height: 400px;
+    overflow-y: auto;
+}
