@@ -85,7 +85,7 @@ class RoomModel extends HomeModel
                     'room_id' => $room_id,
                     'date_hire' => $date_hire,
                     'shift_id' => $shift
-                ))
+                )) 
                 ->get()
                 ->getResultArray();
             if (count($query) > 0) {
