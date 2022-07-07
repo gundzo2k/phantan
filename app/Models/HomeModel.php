@@ -27,6 +27,6 @@ class HomeModel
             return false;
         } else {
             return false;
-        }
+        } 
     }
 }
