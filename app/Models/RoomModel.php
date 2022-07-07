@@ -284,6 +284,6 @@ class RoomModel extends HomeModel
             ->join('customers', 'customers.id = managements.customer_id')
             ->get()
             ->getResultArray();
-        return $query;
+        return $query; 
     }
 }
